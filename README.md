@@ -44,7 +44,7 @@ I was able to created a resources group, watch virtual network and subnets, crea
 <img src="https://i.imgur.com/UopgWkL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-We start to check all the traffic from one machine to another we ping icpm from one machine and look for a ping an make sure the ip is thesame.  
+We start to check all the traffic from one machine to another we ping icpm from one machine and look for a ping an make sure the ip is thesame. In the linux VM we close ICMPv4 port 290 we denied any traffic coming to and from.   
 </p>
 <br />
 
