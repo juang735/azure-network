@@ -52,6 +52,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/oGqzOF2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Wireshark allows as to filter traffic to focus on specific packets. For example:
+To see HTTP traffic, type http in the filter bar and hit Enter.
+To capture traffic from a specific IP address, type ip.addr == 192.168.1.1 (replace with the actual IP) in the filter bar. As you capture traffic, each packet will be displayed in a list with details such as source/destination IP, protocol, and length.
+
+we can click on any packet to view its detailed information, including headers and payload, also follow specific packet streams (like TCP streams) by right-clicking a packet and selecting "Follow" > "TCP Stream."
 
 
