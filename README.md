@@ -63,5 +63,13 @@ To see HTTP traffic, type http in the filter bar and hit Enter.
 To capture traffic from a specific IP address, type ip.addr == 192.168.1.1 (replace with the actual IP) in the filter bar. As you capture traffic, each packet will be displayed in a list with details such as source/destination IP, protocol, and length.
 
 we can click on any packet to view its detailed information, including headers and payload, also follow specific packet streams (like TCP streams) by right-clicking a packet and selecting "Follow" > "TCP Stream."
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/8uYSj2J.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+A VPN (Virtual Private Network) is a technology that creates a secure and private connection over the internet, allowing users to send and receive data as if their devices were directly connected to a private network. This can be useful for ensuring privacy, securing your internet traffic, and accessing resources as if you're on a different network A VPN works by encrypting your internet traffic and routing it through a secure server. Here's the basic process
 
 
